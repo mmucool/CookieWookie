@@ -6,53 +6,69 @@
     <title>Cookie Wookie</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif;
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f8e1d4;
+            background: url('https://source.unsplash.com/1600x900/?kitchen') no-repeat center center fixed;
+            background-size: cover;
+            color: #4a2c2a;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
         h1 {
             color: #d2691e;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 3em;
         }
         img {
             width: 100%;
             border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
         .logo {
-            width: 150px;
+            width: 180px;
             border-radius: 50%;
             margin: 0 auto 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         }
         .email-form {
-            margin-top: 20px;
+            margin-top: 30px;
         }
         input[type="email"] {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+            width: 70%;
+            padding: 12px;
+            margin: 15px 0;
+            border: 2px solid #d2691e;
+            border-radius: 8px;
+            font-size: 1em;
         }
         button {
             background-color: #d2691e;
             color: white;
             border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
+            padding: 12px 25px;
+            border-radius: 8px;
             cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
         }
         button:hover {
             background-color: #a0522d;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #6d4c41;
         }
     </style>
 </head>
@@ -60,13 +76,16 @@
     <div class="container">
         <img src="logo.webp" alt="Cookie Wookie Logo" class="logo">
         <h1>Welcome to Cookie Wookie!</h1>
-        <img src="https://source.unsplash.com/600x400/?cookies" alt="Delicious Cookies">
-        <p>Experience the taste of homemade cookies like never before.</p>
+        <img src="A_warm_and_inviting_image_of_a_stack_of_chocolate_.png" alt="Delicious Cookies">
+        <p>Experience the taste of homemade cookies like never before. Indulge in our carefully crafted recipes and enjoy the warmth of every bite.</p>
         <div class="email-form">
-            <p>Stay updated! Enter your email below:</p>
+            <p>Stay updated! Enter your email below to join our cookie club:</p>
             <input type="email" placeholder="Your email here" required>
             <button>Subscribe</button>
         </div>
     </div>
+    <footer>
+        &copy; 2025 Cookie Wookie. All rights reserved.
+    </footer>
 </body>
 </html>
